@@ -1,0 +1,64 @@
+html{
+    background-image: url(https://assets.pokemon.com/assets/cms2/img/misc/countries/pt/country_detail_pokemon.png);
+    background-size: auto;
+}
+
+#titulo
+{
+    font-family: FreeMono, monospace;
+    background-color: black;
+    color: yellow;
+}
+
+#area
+{
+  position:relative;
+  left:40%;
+  top:29%;
+  width:320px;
+  height:270px;
+}
+#area #formulario
+{
+  position:absolute;
+  display:block;
+}
+fieldset
+{
+  width:350px;
+  height:150px;
+  background-color: yellow;
+}
+
+
+
+legend
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+  font-weight: 800;
+
+}
+#formulario label
+{
+  position:absolute;
+  left:19px;
+  margin-right:5px;
+}
+
+
+#formulario input.nome
+{
+  position:absolute;
+  left:95px;
+  top:23px;
+  width:225px;
+}
+#formulario input.idMestre
+{
+  position:absolute;
+  left:95px;
+  margin-top:2px;
+  width:225px;
+}
+
