@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Pokemon</title>
+    <link rel="stylesheet" type="text/css" href="pokemon2.css">
+
+  </head>
+<body>
+    <div id="titulo">
+        <h1><center>CADASTRE SEU POKÉMON!</h1></center>
+    </div>
+  <div id="area">
+    <form id="formulario" autocomplete="off">
+      <fieldset>
+        <legend><b>Ficha do Pokémon</legend></b>
+        <label>Nome do Pokémon:</label><input class="campo_nome" type="text"><br>
+        <label>Quantid. Pokebolas:</label><input class="pokeb" type="text"><br>
+        <label>Data de captura:</label><input class ="campo_data" type="date"><br>
+        <label for="tipo">Tipo de Pokémon:</label><br>
+        <select id="tipo" name="tipo">
+            <option value="NR">Normal</option>
+            <option value="FG">Fogo</option>
+            <option value="AG">Água</option>
+            <option value="AR">Ar</option>
+            <option value="PL">Plantão</option>
+            <option value="EL">Elétrico</option>
+            <option value="GL">Gelo</option>
+        </select></br>
+        <br>
+        <label>Informações adicionais sobre a captura:</label><br><textarea class="msg" cols="35" rows="8"></textarea><br>
+        <br>
+        <center><input class="btn_submit" type="submit" value="Cadastrar meu Pokémon!"></center>
+      </fieldset>
+    </form>
+  </div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+  <center><h2><p><a href="pokemon.html" target="_blank" ><< VOLTAR </a></p></center></h2>
+</body>
+</html>
+
+
+
