@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="label.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Oportunidade</title>
+</head>
+
+<!--Para fazer formulários-->
+<h1><center>Cadastro de Oportunidade:<br/></h1>
+    <br/>
+    <center><form><fieldset>
+    <label for="Part">Particular</label>
+    <input type="checkbox" name = "part" id="part"><br/>
+    <br/>
+    <label for="Nome">Nome da Oportunidade:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite o nome"><br/>
+    <br/>
+    <label for="nasc">Data: </label>
+    <input type="date" name="date" id="date"><br/>
+    <br/>
+    <label for="valor">Valor R$ </label>
+    <input type="number" name="valor" id="valor" placeholder="Digite o valor"><br/>
+    <br/>
+    <br/>
+    <label for="fase">Fase</label><br/>
+    <select id="fase" name="fase">
+        <option>Prospecting</option>
+        <option>Qualification</option>
+        <option>Qualification</option>
+        <option>Needs Analysis</option>
+        <option>Value Proposition</option>
+        <option>Id. Decision Makers</option>
+        <option>Perception Analysis</option>
+        <option>Proposal/Price Quote</option>
+        <option>Negotiation/Review</option>
+        <option>Closed Won</option>
+        <option>Closed Lost</option>
+    </select><br/>  
+<br/>
+<br/>
+<label for="fase">Tipo</label><br/>
+<select id="fase" name="fase">
+    <option>Existing Customer - Upgrade</option>
+    <option>Existing Customer - Replacement</option>
+    <option>Existing Customer - Downgrade</option>
+    <option>New Customer</option>
+</select><br/>  
+<br/>
+<br/>
+<br/>
+    <input type="button" value="Cadastrar!"><br/></center>
+<br/>
+</form></fieldset>
+</html>
