@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="pokemon.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mestre Pokémon</title>
+
+  </head>
+<body>
+
+    <div id="titulo">
+        <h1><center>MESTRE POKÉMON!</h1></center>
+    </div>
+
+  <div id="area">
+    <form id="formulario" autocomplete="off">
+      <fieldset>
+        <legend>Cadastro</legend>
+        <label>Nome:</label><input class="nome" type="text"><br>
+        <label>ID Mestre:</label><input class="idMestre" type="text"></br></br>
+        <label for="regiao">Região de atuação:</label></br>
+        <select id="estado" name="estado">
+            <option value="KT">Kanto</option>
+            <option value="JT">Johto</option>
+            <option value="HN">Hoenn</option>
+            <option value="SN">Sinnoh</option>
+            <option value="UN">Unova</option>
+            <option value="KL">Kalos</option>
+        </select></br>
+    </br>
+    <center><input class="btn_submit" type="submit" value="Cadastrar"></center>
+      </fieldset>
+    </form>
+  </div>
+
+  <div id="area">
+    <form id="formulario" autocomplete="off">
+      <fieldset>
+        <legend>Login</legend>
+        <label>Id Mestre:</label><input class="nome" type="text"><br>
+        <label>Senha:</label><input class="idMestre" type="password"></br>
+    </br>
+    </br>
+        <center><input class="btn_submit" type="submit" value="Login"></center>
+      </fieldset>
+    </form>
+  </div>
+  <center><h2><p><a href="pokemon2.html" target="_blank" >Cadastre seu Pokémon</a></p></center></h2>
+</body>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<footer>
+    <p><a href="https://www.linkedin.com/in/alice-augusta-esteves-pinheiro-machado-77b075208/" target="_blank" >Clica aqui não 👽</a></p>
+    <p> Alice Augusta &copy; 2023 </p>
+
+</footer>
+</html>
