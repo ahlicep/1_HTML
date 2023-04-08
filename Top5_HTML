@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link href="label.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugestões!</title>
+</head>
+
+<!--Para fazer formulários-->
+<h1><center>Sugestão de série/filme:<br/></h1>
+    <br/>
+    <center><form><fieldset>
+    <label for="Nome">Nome completo:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite seu nome"><br/>
+    <label for="Nome">Nome da série:</label>
+    <input type="text" name="nome" id="nome" placeholder="Digite o nome da obra"><br/>
+    <br/>
+    <label for="email">E-mail </label>
+    <input type="email" name="email" id="email"><br/>
+    <br/>
+    <label for="link">Link do trailer: </label>
+    <input type="url" name="link" id="link"><br/>
+    <br/>
+    <br/>
+    <label for="tipo">Tipo</label><br/>
+    <select id="tipo" name="tipo">
+        <option>Filme</option>
+        <option>Série</option>
+    </select><br/>  
+<br/>
+<br/>
+
+    <input type="button" value="Enviar!"><br/></center>
+<br/>
+</form></fieldset>
+</html>
+
+
+
+
+
