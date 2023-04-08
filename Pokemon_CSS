@@ -1,0 +1,72 @@
+html{
+    background-image: url(https://www.ensino.eu/media/3kyh4vko/pokemon.jpg?width=500&height=500);
+    background-size:contain;
+}
+
+#area
+{
+  position:relative;
+  left:38%;
+  top:29%;
+  width:320px;
+  height:270px;
+}
+#area #formulario
+{
+  position:absolute;
+  display:block;
+}
+fieldset
+{
+  width:400px;
+  height:320px;
+  background-color: #f6e652;
+
+}
+
+#titulo
+{
+    font-family: FreeMono, monospace;
+    background-color: black;
+    color: yellow;
+}
+
+
+legend
+{
+  font-style:bold;
+  font-family: "Segoe UI";
+}
+#formulario label
+{
+  position:absolute;
+  left:19px;
+  margin-right:5px;
+}
+
+
+#formulario input.campo_nome
+{
+  position:absolute;
+  left:150px;
+  top:23px;
+  width:225px;
+}
+#formulario input.pokeb
+{
+  position:absolute;
+  left:150px;
+  margin-top:2px;
+  width:225px;
+}
+
+#formulario input.campo_data
+{
+  position:absolute;
+  left:150px;
+  margin-top:2px;
+  width:225px;
+}
+
+
+
